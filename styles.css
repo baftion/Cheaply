@@ -1,0 +1,57 @@
+/* CSS for the homepage example index.html*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('new-pride-flag-01.jpg');
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 10vh;
+	line-height: 10vh;
+}
+
+main {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/*h1 {*/
+/*	height: 100vh;*/
+/*	font-size: 80px;*/
+/*	margin-top: 10px;*/
+/*	margin-bottom: 500px;*/
+/*	padding: 15px 40px;*/
+/*}*/
+
+footer {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
+
+.box {
+  font-size: 75px;
+  text-align: center;
+  width: 800;
+  border: 15px solid black;
+  padding: 100px;
+  margin: 20px;
+}
